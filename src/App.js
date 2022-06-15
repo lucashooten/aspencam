@@ -1,6 +1,7 @@
 import React from "react";
 import { ChakraProvider, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import ReactHlsPlayer from "react-hls-player";
+import bub from "./bub.png";
 
 const App = () => (
   <ChakraProvider resetCSS>
@@ -45,7 +46,7 @@ const App = () => (
             pos="absolute"
             height="150px"
             width="120px"
-            src="bub.png"
+            src={bub}
           />
         </Flex>
         <Flex flexDirection="column" h="full">
